@@ -2,6 +2,7 @@ import React from "react";
 
 const Weather = props => (
 	<div>
+		lunes
 		{ props.temperature && <p>Temperatura: { props.temperature }</p> }
 		{ props.city && <p>Ciudad: { props.city }</p> }
 		{ props.country && <p>Pais: { props.country }</p> }
